@@ -1,0 +1,630 @@
+2021-08-07 10:28:24,954 - INFO - algo           : SSI
+2021-08-07 10:28:24,954 - INFO - runnable state : on
+2021-08-07 10:28:24,963 - INFO - ##############################################################
+2021-08-07 10:28:24,963 - INFO - active algo : structural similarity index
+2021-08-07 10:28:24,963 - INFO - ##############################################################
+2021-08-07 10:28:24,965 - INFO - starting the preprocess operation....
+2021-08-07 10:28:24,965 - INFO - finding diff sized real-time images....
+2021-08-07 10:28:24,996 - INFO - diff sized images count :17
+2021-08-07 10:28:24,996 - INFO - done with finding diff sized images in 0.0 minutes....OK
+2021-08-07 10:28:24,997 - INFO - finished the preprocess operation in 0.0 minutes....OK
+2021-08-07 10:28:25,005 - INFO - ##############################################################
+2021-08-07 10:28:25,005 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 10:28:25,005 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 10:28:25,005 - INFO - ##############################################################
+2021-08-07 10:28:27,495 - INFO - ##############################################################
+2021-08-07 10:28:27,495 - INFO - total diff files created for mismatches :16
+2021-08-07 10:28:27,495 - INFO - finished the SSI algo operation in 0.04 minutes...OK
+2021-08-07 10:28:27,495 - INFO - ##############################################################
+2021-08-07 10:28:27,496 - INFO - 
+2021-08-07 10:28:27,496 - INFO - 
+2021-08-07 10:28:27,496 - INFO - 
+2021-08-07 10:28:27,511 - INFO - algo           : perceptual_hashing
+2021-08-07 10:28:27,511 - INFO - runnable state : on
+2021-08-07 10:28:27,522 - INFO - ##############################################################
+2021-08-07 10:28:27,522 - INFO - active algo : p-hash
+2021-08-07 10:28:27,523 - INFO - ##############################################################
+2021-08-07 10:28:27,526 - INFO - ##############################################################
+2021-08-07 10:28:27,526 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 10:28:27,526 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 10:28:27,526 - INFO - ##############################################################
+2021-08-07 10:28:27,870 - INFO - ##############################################################
+2021-08-07 10:28:27,870 - INFO - finished the p-hashing algo operation in 0.01 minutes...OK
+2021-08-07 10:28:27,870 - INFO - ##############################################################
+2021-08-07 10:28:27,888 - INFO - algo           : BRISK-FLANN
+2021-08-07 10:28:27,888 - INFO - runnable state : on
+2021-08-07 10:28:27,901 - INFO - ##############################################################
+2021-08-07 10:28:27,901 - INFO - active algo : BRISK-FLANN
+2021-08-07 10:28:27,901 - INFO - ##############################################################
+2021-08-07 10:28:27,908 - INFO - ##############################################################
+2021-08-07 10:28:27,908 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 10:28:27,908 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 10:28:27,908 - INFO - ##############################################################
+2021-08-07 10:28:27,924 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0
+2021-08-07 10:28:27,926 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0
+2021-08-07 10:28:27,929 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0.0
+2021-08-07 10:28:28,043 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:1052
+2021-08-07 10:28:28,043 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:295
+2021-08-07 10:28:28,044 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:29.06
+2021-08-07 10:28:28,138 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:630
+2021-08-07 10:28:28,139 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:128
+2021-08-07 10:28:28,145 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:20.58
+2021-08-07 10:28:28,238 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:622
+2021-08-07 10:28:28,239 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:130
+2021-08-07 10:28:28,245 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:20.9
+2021-08-07 10:28:28,464 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:3836
+2021-08-07 10:28:28,464 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:59
+2021-08-07 10:28:28,466 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:2.28
+2021-08-07 10:28:28,533 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:420
+2021-08-07 10:28:28,533 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:13
+2021-08-07 10:28:28,534 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:3.1
+2021-08-07 10:28:28,598 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:520
+2021-08-07 10:28:28,598 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:15
+2021-08-07 10:28:28,599 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:3.57
+2021-08-07 10:28:28,681 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:520
+2021-08-07 10:28:28,682 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:520
+2021-08-07 10:28:28,682 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:100.0
+2021-08-07 10:28:28,744 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:309
+2021-08-07 10:28:28,744 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:28
+2021-08-07 10:28:28,745 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:9.06
+2021-08-07 10:28:28,838 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:338
+2021-08-07 10:28:28,839 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:37
+2021-08-07 10:28:28,839 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:10.95
+2021-08-07 10:28:29,005 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:798
+2021-08-07 10:28:29,005 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:719
+2021-08-07 10:28:29,010 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:90.1
+2021-08-07 10:28:29,115 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:1089
+2021-08-07 10:28:29,116 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:168
+2021-08-07 10:28:29,116 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:15.64
+2021-08-07 10:28:29,298 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:2169
+2021-08-07 10:28:29,298 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:2053
+2021-08-07 10:28:29,299 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:94.65
+2021-08-07 10:28:29,392 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:630
+2021-08-07 10:28:29,392 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:127
+2021-08-07 10:28:29,392 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:20.42
+2021-08-07 10:28:29,490 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:629
+2021-08-07 10:28:29,490 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:603
+2021-08-07 10:28:29,492 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:95.87
+2021-08-07 10:28:29,600 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:626
+2021-08-07 10:28:29,601 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:602
+2021-08-07 10:28:29,601 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:96.17
+2021-08-07 10:28:29,696 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:632
+2021-08-07 10:28:29,697 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:566
+2021-08-07 10:28:29,697 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:90.27
+2021-08-07 10:28:29,702 - INFO - ##############################################################
+2021-08-07 10:28:29,702 - INFO - finished the BRISK-FLANN algo operation in 0.03 minutes...OK
+2021-08-07 10:28:29,702 - INFO - ##############################################################
+2021-08-07 10:28:29,728 - INFO - algo           : diff_hashing
+2021-08-07 10:28:29,728 - INFO - runnable state : off
+2021-08-07 11:06:19,103 - INFO - algo           : SSI
+2021-08-07 11:06:19,103 - INFO - runnable state : on
+2021-08-07 11:06:19,117 - INFO - ##############################################################
+2021-08-07 11:06:19,117 - INFO - active algo : structural similarity index
+2021-08-07 11:06:19,117 - INFO - ##############################################################
+2021-08-07 11:06:19,119 - INFO - starting the preprocess operation....
+2021-08-07 11:06:19,120 - INFO - finding diff sized real-time images....
+2021-08-07 11:06:19,152 - INFO - diff sized images count :17
+2021-08-07 11:06:19,152 - INFO - done with finding diff sized images in 0.0 minutes....OK
+2021-08-07 11:06:19,152 - INFO - finished the preprocess operation in 0.0 minutes....OK
+2021-08-07 11:06:19,155 - INFO - ##############################################################
+2021-08-07 11:06:19,155 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:06:19,156 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:06:19,156 - INFO - ##############################################################
+2021-08-07 11:06:21,585 - INFO - ##############################################################
+2021-08-07 11:06:21,585 - INFO - total diff files created for mismatches :16
+2021-08-07 11:06:21,585 - INFO - finished the SSI algo operation in 0.04 minutes...OK
+2021-08-07 11:06:21,585 - INFO - ##############################################################
+2021-08-07 11:06:21,585 - INFO - 
+2021-08-07 11:06:21,585 - INFO - 
+2021-08-07 11:06:21,585 - INFO - 
+2021-08-07 11:06:21,595 - INFO - algo           : perceptual_hashing
+2021-08-07 11:06:21,595 - INFO - runnable state : on
+2021-08-07 11:06:21,604 - INFO - ##############################################################
+2021-08-07 11:06:21,604 - INFO - active algo : p-hash
+2021-08-07 11:06:21,604 - INFO - ##############################################################
+2021-08-07 11:06:21,607 - INFO - ##############################################################
+2021-08-07 11:06:21,607 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:06:21,607 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:06:21,607 - INFO - ##############################################################
+2021-08-07 11:06:21,953 - INFO - ##############################################################
+2021-08-07 11:06:21,953 - INFO - finished the p-hashing algo operation in 0.01 minutes...OK
+2021-08-07 11:06:21,953 - INFO - ##############################################################
+2021-08-07 11:06:21,972 - INFO - algo           : BRISK-FLANN
+2021-08-07 11:06:21,972 - INFO - runnable state : on
+2021-08-07 11:06:21,982 - INFO - ##############################################################
+2021-08-07 11:06:21,982 - INFO - active algo : BRISK-FLANN
+2021-08-07 11:06:21,982 - INFO - ##############################################################
+2021-08-07 11:06:21,985 - INFO - ##############################################################
+2021-08-07 11:06:21,985 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:06:21,985 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:06:21,985 - INFO - ##############################################################
+2021-08-07 11:06:22,004 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0
+2021-08-07 11:06:22,004 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0
+2021-08-07 11:06:22,008 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0.0
+2021-08-07 11:06:22,134 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:1052
+2021-08-07 11:06:22,135 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:295
+2021-08-07 11:06:22,135 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:29.06
+2021-08-07 11:06:22,228 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:630
+2021-08-07 11:06:22,228 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:128
+2021-08-07 11:06:22,228 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:20.58
+2021-08-07 11:06:22,322 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:622
+2021-08-07 11:06:22,322 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:130
+2021-08-07 11:06:22,326 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:20.9
+2021-08-07 11:06:22,544 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:3836
+2021-08-07 11:06:22,544 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:59
+2021-08-07 11:06:22,545 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:2.28
+2021-08-07 11:06:22,607 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:420
+2021-08-07 11:06:22,607 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:13
+2021-08-07 11:06:22,609 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:3.1
+2021-08-07 11:06:22,669 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:520
+2021-08-07 11:06:22,669 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:15
+2021-08-07 11:06:22,669 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:3.57
+2021-08-07 11:06:22,762 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:520
+2021-08-07 11:06:22,762 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:520
+2021-08-07 11:06:22,763 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:100.0
+2021-08-07 11:06:22,842 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:309
+2021-08-07 11:06:22,842 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:28
+2021-08-07 11:06:22,843 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:9.06
+2021-08-07 11:06:22,904 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:338
+2021-08-07 11:06:22,904 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:37
+2021-08-07 11:06:22,904 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:10.95
+2021-08-07 11:06:23,045 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:798
+2021-08-07 11:06:23,045 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:719
+2021-08-07 11:06:23,046 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:90.1
+2021-08-07 11:06:23,153 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:1089
+2021-08-07 11:06:23,153 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:168
+2021-08-07 11:06:23,154 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:15.64
+2021-08-07 11:06:23,350 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:2169
+2021-08-07 11:06:23,351 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:2053
+2021-08-07 11:06:23,351 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:94.65
+2021-08-07 11:06:23,459 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:630
+2021-08-07 11:06:23,459 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:127
+2021-08-07 11:06:23,460 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:20.42
+2021-08-07 11:06:23,552 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:629
+2021-08-07 11:06:23,552 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:603
+2021-08-07 11:06:23,553 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:95.87
+2021-08-07 11:06:23,666 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:626
+2021-08-07 11:06:23,666 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:602
+2021-08-07 11:06:23,667 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:96.17
+2021-08-07 11:06:23,761 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:632
+2021-08-07 11:06:23,762 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:566
+2021-08-07 11:06:23,762 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:90.27
+2021-08-07 11:06:23,769 - INFO - ##############################################################
+2021-08-07 11:06:23,770 - INFO - finished the BRISK-FLANN algo operation in 0.03 minutes...OK
+2021-08-07 11:06:23,770 - INFO - ##############################################################
+2021-08-07 11:06:23,789 - INFO - algo           : diff_hashing
+2021-08-07 11:06:23,790 - INFO - runnable state : off
+2021-08-07 11:06:28,750 - INFO - algo           : SSI
+2021-08-07 11:06:28,750 - INFO - runnable state : on
+2021-08-07 11:06:28,757 - INFO - ##############################################################
+2021-08-07 11:06:28,757 - INFO - active algo : structural similarity index
+2021-08-07 11:06:28,757 - INFO - ##############################################################
+2021-08-07 11:06:28,759 - INFO - starting the preprocess operation....
+2021-08-07 11:06:28,759 - INFO - finding diff sized real-time images....
+2021-08-07 11:06:28,789 - INFO - diff sized images count :17
+2021-08-07 11:06:28,789 - INFO - done with finding diff sized images in 0.0 minutes....OK
+2021-08-07 11:06:28,790 - INFO - finished the preprocess operation in 0.0 minutes....OK
+2021-08-07 11:06:28,793 - INFO - ##############################################################
+2021-08-07 11:06:28,793 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:06:28,793 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:06:28,793 - INFO - ##############################################################
+2021-08-07 11:06:31,237 - INFO - ##############################################################
+2021-08-07 11:06:31,238 - INFO - total diff files created for mismatches :16
+2021-08-07 11:06:31,238 - INFO - finished the SSI algo operation in 0.04 minutes...OK
+2021-08-07 11:06:31,238 - INFO - ##############################################################
+2021-08-07 11:06:31,238 - INFO - 
+2021-08-07 11:06:31,238 - INFO - 
+2021-08-07 11:06:31,238 - INFO - 
+2021-08-07 11:06:31,257 - INFO - algo           : perceptual_hashing
+2021-08-07 11:06:31,257 - INFO - runnable state : on
+2021-08-07 11:06:31,272 - INFO - ##############################################################
+2021-08-07 11:06:31,272 - INFO - active algo : p-hash
+2021-08-07 11:06:31,272 - INFO - ##############################################################
+2021-08-07 11:06:31,277 - INFO - ##############################################################
+2021-08-07 11:06:31,277 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:06:31,277 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:06:31,277 - INFO - ##############################################################
+2021-08-07 11:06:31,631 - INFO - ##############################################################
+2021-08-07 11:06:31,631 - INFO - finished the p-hashing algo operation in 0.01 minutes...OK
+2021-08-07 11:06:31,631 - INFO - ##############################################################
+2021-08-07 11:06:31,644 - INFO - algo           : BRISK-FLANN
+2021-08-07 11:06:31,644 - INFO - runnable state : on
+2021-08-07 11:06:31,660 - INFO - ##############################################################
+2021-08-07 11:06:31,660 - INFO - active algo : BRISK-FLANN
+2021-08-07 11:06:31,660 - INFO - ##############################################################
+2021-08-07 11:06:31,663 - INFO - ##############################################################
+2021-08-07 11:06:31,663 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:06:31,663 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:06:31,663 - INFO - ##############################################################
+2021-08-07 11:06:31,681 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0
+2021-08-07 11:06:31,681 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0
+2021-08-07 11:06:31,684 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0.0
+2021-08-07 11:06:31,794 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:1052
+2021-08-07 11:06:31,794 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:295
+2021-08-07 11:06:31,795 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:29.06
+2021-08-07 11:06:31,887 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:630
+2021-08-07 11:06:31,887 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:128
+2021-08-07 11:06:31,893 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:20.58
+2021-08-07 11:06:31,984 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:622
+2021-08-07 11:06:31,984 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:130
+2021-08-07 11:06:31,985 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:20.9
+2021-08-07 11:06:32,208 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:3836
+2021-08-07 11:06:32,208 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:59
+2021-08-07 11:06:32,209 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:2.28
+2021-08-07 11:06:32,275 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:420
+2021-08-07 11:06:32,275 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:13
+2021-08-07 11:06:32,275 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:3.1
+2021-08-07 11:06:32,339 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:520
+2021-08-07 11:06:32,339 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:15
+2021-08-07 11:06:32,341 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:3.57
+2021-08-07 11:06:32,418 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:520
+2021-08-07 11:06:32,418 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:520
+2021-08-07 11:06:32,419 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:100.0
+2021-08-07 11:06:32,484 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:309
+2021-08-07 11:06:32,485 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:28
+2021-08-07 11:06:32,485 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:9.06
+2021-08-07 11:06:32,554 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:338
+2021-08-07 11:06:32,554 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:37
+2021-08-07 11:06:32,557 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:10.95
+2021-08-07 11:06:32,698 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:798
+2021-08-07 11:06:32,698 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:719
+2021-08-07 11:06:32,698 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:90.1
+2021-08-07 11:06:32,800 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:1089
+2021-08-07 11:06:32,800 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:168
+2021-08-07 11:06:32,800 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:15.64
+2021-08-07 11:06:32,970 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:2169
+2021-08-07 11:06:32,970 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:2053
+2021-08-07 11:06:32,970 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:94.65
+2021-08-07 11:06:33,052 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:630
+2021-08-07 11:06:33,052 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:127
+2021-08-07 11:06:33,052 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:20.42
+2021-08-07 11:06:33,136 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:629
+2021-08-07 11:06:33,137 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:603
+2021-08-07 11:06:33,137 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:95.87
+2021-08-07 11:06:33,222 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:626
+2021-08-07 11:06:33,222 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:602
+2021-08-07 11:06:33,222 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:96.17
+2021-08-07 11:06:33,306 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:632
+2021-08-07 11:06:33,306 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:566
+2021-08-07 11:06:33,307 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:90.27
+2021-08-07 11:06:33,307 - INFO - ##############################################################
+2021-08-07 11:06:33,307 - INFO - finished the BRISK-FLANN algo operation in 0.03 minutes...OK
+2021-08-07 11:06:33,307 - INFO - ##############################################################
+2021-08-07 11:06:33,314 - INFO - algo           : diff_hashing
+2021-08-07 11:06:33,314 - INFO - runnable state : off
+2021-08-07 11:27:58,123 - INFO - algo           : SSI
+2021-08-07 11:27:58,123 - INFO - runnable state : on
+2021-08-07 11:27:58,133 - INFO - ##############################################################
+2021-08-07 11:27:58,133 - INFO - active algo : structural similarity index
+2021-08-07 11:27:58,133 - INFO - ##############################################################
+2021-08-07 11:27:58,135 - INFO - starting the preprocess operation....
+2021-08-07 11:27:58,136 - INFO - finding diff sized real-time images....
+2021-08-07 11:27:58,173 - INFO - diff sized images count :17
+2021-08-07 11:27:58,173 - INFO - done with finding diff sized images in 0.0 minutes....OK
+2021-08-07 11:27:58,174 - INFO - finished the preprocess operation in 0.0 minutes....OK
+2021-08-07 11:27:58,177 - INFO - ##############################################################
+2021-08-07 11:27:58,177 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:27:58,177 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:27:58,177 - INFO - ##############################################################
+2021-08-07 11:28:00,660 - INFO - ##############################################################
+2021-08-07 11:28:00,660 - INFO - total diff files created for mismatches :16
+2021-08-07 11:28:00,660 - INFO - finished the SSI algo operation in 0.04 minutes...OK
+2021-08-07 11:28:00,660 - INFO - ##############################################################
+2021-08-07 11:28:00,660 - INFO - 
+2021-08-07 11:28:00,660 - INFO - 
+2021-08-07 11:28:00,660 - INFO - 
+2021-08-07 11:28:00,681 - INFO - algo           : perceptual_hashing
+2021-08-07 11:28:00,682 - INFO - runnable state : on
+2021-08-07 11:28:00,698 - INFO - ##############################################################
+2021-08-07 11:28:00,698 - INFO - active algo : p-hash
+2021-08-07 11:28:00,699 - INFO - ##############################################################
+2021-08-07 11:28:00,701 - INFO - ##############################################################
+2021-08-07 11:28:00,701 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:28:00,701 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:28:00,701 - INFO - ##############################################################
+2021-08-07 11:28:01,037 - INFO - ##############################################################
+2021-08-07 11:28:01,037 - INFO - finished the p-hashing algo operation in 0.01 minutes...OK
+2021-08-07 11:28:01,037 - INFO - ##############################################################
+2021-08-07 11:28:01,054 - INFO - algo           : BRISK-FLANN
+2021-08-07 11:28:01,054 - INFO - runnable state : on
+2021-08-07 11:28:01,064 - INFO - ##############################################################
+2021-08-07 11:28:01,064 - INFO - active algo : BRISK-FLANN
+2021-08-07 11:28:01,064 - INFO - ##############################################################
+2021-08-07 11:28:01,067 - INFO - ##############################################################
+2021-08-07 11:28:01,068 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:28:01,068 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:28:01,068 - INFO - ##############################################################
+2021-08-07 11:28:01,087 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0
+2021-08-07 11:28:01,087 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0
+2021-08-07 11:28:01,090 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0.0
+2021-08-07 11:28:01,206 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:1052
+2021-08-07 11:28:01,206 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:295
+2021-08-07 11:28:01,207 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:29.06
+2021-08-07 11:28:01,304 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:630
+2021-08-07 11:28:01,305 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:128
+2021-08-07 11:28:01,305 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:20.58
+2021-08-07 11:28:01,399 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:622
+2021-08-07 11:28:01,399 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:130
+2021-08-07 11:28:01,400 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:20.9
+2021-08-07 11:28:01,624 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:3836
+2021-08-07 11:28:01,624 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:59
+2021-08-07 11:28:01,624 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:2.28
+2021-08-07 11:28:01,688 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:420
+2021-08-07 11:28:01,688 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:13
+2021-08-07 11:28:01,688 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:3.1
+2021-08-07 11:28:01,749 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:520
+2021-08-07 11:28:01,750 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:15
+2021-08-07 11:28:01,750 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:3.57
+2021-08-07 11:28:01,854 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:520
+2021-08-07 11:28:01,854 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:520
+2021-08-07 11:28:01,855 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:100.0
+2021-08-07 11:28:01,930 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:309
+2021-08-07 11:28:01,930 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:28
+2021-08-07 11:28:01,930 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:9.06
+2021-08-07 11:28:02,003 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:338
+2021-08-07 11:28:02,003 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:37
+2021-08-07 11:28:02,004 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:10.95
+2021-08-07 11:28:02,141 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:798
+2021-08-07 11:28:02,141 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:719
+2021-08-07 11:28:02,142 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:90.1
+2021-08-07 11:28:02,259 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:1089
+2021-08-07 11:28:02,259 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:168
+2021-08-07 11:28:02,260 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:15.64
+2021-08-07 11:28:02,454 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:2169
+2021-08-07 11:28:02,454 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:2053
+2021-08-07 11:28:02,455 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:94.65
+2021-08-07 11:28:02,565 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:630
+2021-08-07 11:28:02,565 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:127
+2021-08-07 11:28:02,566 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:20.42
+2021-08-07 11:28:02,670 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:629
+2021-08-07 11:28:02,670 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:603
+2021-08-07 11:28:02,671 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:95.87
+2021-08-07 11:28:02,775 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:626
+2021-08-07 11:28:02,776 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:602
+2021-08-07 11:28:02,776 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:96.17
+2021-08-07 11:28:02,868 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:632
+2021-08-07 11:28:02,868 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:566
+2021-08-07 11:28:02,872 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:90.27
+2021-08-07 11:28:02,878 - INFO - ##############################################################
+2021-08-07 11:28:02,878 - INFO - finished the BRISK-FLANN algo operation in 0.03 minutes...OK
+2021-08-07 11:28:02,878 - INFO - ##############################################################
+2021-08-07 11:28:02,899 - INFO - algo           : diff_hashing
+2021-08-07 11:28:02,899 - INFO - runnable state : off
+2021-08-07 11:30:40,505 - INFO - algo           : SSI
+2021-08-07 11:30:40,505 - INFO - runnable state : on
+2021-08-07 11:30:40,515 - INFO - ##############################################################
+2021-08-07 11:30:40,515 - INFO - active algo : structural similarity index
+2021-08-07 11:30:40,515 - INFO - ##############################################################
+2021-08-07 11:30:40,517 - INFO - starting the preprocess operation....
+2021-08-07 11:30:40,518 - INFO - finding diff sized real-time images....
+2021-08-07 11:30:40,551 - INFO - diff sized images count :17
+2021-08-07 11:30:40,551 - INFO - done with finding diff sized images in 0.0 minutes....OK
+2021-08-07 11:30:40,553 - INFO - finished the preprocess operation in 0.0 minutes....OK
+2021-08-07 11:30:40,556 - INFO - ##############################################################
+2021-08-07 11:30:40,556 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:30:40,556 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:30:40,556 - INFO - ##############################################################
+2021-08-07 11:30:43,068 - INFO - ##############################################################
+2021-08-07 11:30:43,068 - INFO - total diff files created for mismatches :16
+2021-08-07 11:30:43,068 - INFO - finished the SSI algo operation in 0.04 minutes...OK
+2021-08-07 11:30:43,068 - INFO - ##############################################################
+2021-08-07 11:30:43,068 - INFO - 
+2021-08-07 11:30:43,068 - INFO - 
+2021-08-07 11:30:43,068 - INFO - 
+2021-08-07 11:30:43,084 - INFO - algo           : perceptual_hashing
+2021-08-07 11:30:43,084 - INFO - runnable state : on
+2021-08-07 11:30:43,095 - INFO - ##############################################################
+2021-08-07 11:30:43,095 - INFO - active algo : p-hash
+2021-08-07 11:30:43,095 - INFO - ##############################################################
+2021-08-07 11:30:43,098 - INFO - ##############################################################
+2021-08-07 11:30:43,098 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:30:43,099 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:30:43,099 - INFO - ##############################################################
+2021-08-07 11:30:43,441 - INFO - ##############################################################
+2021-08-07 11:30:43,441 - INFO - finished the p-hashing algo operation in 0.01 minutes...OK
+2021-08-07 11:30:43,441 - INFO - ##############################################################
+2021-08-07 11:30:43,459 - INFO - algo           : BRISK-FLANN
+2021-08-07 11:30:43,459 - INFO - runnable state : on
+2021-08-07 11:30:43,472 - INFO - ##############################################################
+2021-08-07 11:30:43,472 - INFO - active algo : BRISK-FLANN
+2021-08-07 11:30:43,472 - INFO - ##############################################################
+2021-08-07 11:30:43,478 - INFO - ##############################################################
+2021-08-07 11:30:43,478 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:30:43,478 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:30:43,478 - INFO - ##############################################################
+2021-08-07 11:30:43,493 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0
+2021-08-07 11:30:43,493 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0
+2021-08-07 11:30:43,496 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0.0
+2021-08-07 11:30:43,606 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:1052
+2021-08-07 11:30:43,606 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:295
+2021-08-07 11:30:43,607 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:29.06
+2021-08-07 11:30:43,713 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:630
+2021-08-07 11:30:43,714 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:128
+2021-08-07 11:30:43,714 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:20.58
+2021-08-07 11:30:43,810 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:622
+2021-08-07 11:30:43,810 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:130
+2021-08-07 11:30:43,811 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:20.9
+2021-08-07 11:30:44,048 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:3836
+2021-08-07 11:30:44,048 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:59
+2021-08-07 11:30:44,051 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:2.28
+2021-08-07 11:30:44,139 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:420
+2021-08-07 11:30:44,139 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:13
+2021-08-07 11:30:44,144 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:3.1
+2021-08-07 11:30:44,209 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:520
+2021-08-07 11:30:44,209 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:15
+2021-08-07 11:30:44,210 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:3.57
+2021-08-07 11:30:44,293 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:520
+2021-08-07 11:30:44,293 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:520
+2021-08-07 11:30:44,294 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:100.0
+2021-08-07 11:30:44,362 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:309
+2021-08-07 11:30:44,362 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:28
+2021-08-07 11:30:44,365 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:9.06
+2021-08-07 11:30:44,455 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:338
+2021-08-07 11:30:44,456 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:37
+2021-08-07 11:30:44,458 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:10.95
+2021-08-07 11:30:44,599 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:798
+2021-08-07 11:30:44,600 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:719
+2021-08-07 11:30:44,602 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:90.1
+2021-08-07 11:30:44,724 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:1089
+2021-08-07 11:30:44,724 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:168
+2021-08-07 11:30:44,725 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:15.64
+2021-08-07 11:30:44,906 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:2169
+2021-08-07 11:30:44,906 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:2053
+2021-08-07 11:30:44,907 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:94.65
+2021-08-07 11:30:45,001 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:630
+2021-08-07 11:30:45,001 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:127
+2021-08-07 11:30:45,002 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:20.42
+2021-08-07 11:30:45,098 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:629
+2021-08-07 11:30:45,099 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:603
+2021-08-07 11:30:45,100 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:95.87
+2021-08-07 11:30:45,195 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:626
+2021-08-07 11:30:45,195 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:602
+2021-08-07 11:30:45,197 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:96.17
+2021-08-07 11:30:45,293 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:632
+2021-08-07 11:30:45,293 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:566
+2021-08-07 11:30:45,294 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:90.27
+2021-08-07 11:30:45,303 - INFO - ##############################################################
+2021-08-07 11:30:45,303 - INFO - finished the BRISK-FLANN algo operation in 0.03 minutes...OK
+2021-08-07 11:30:45,303 - INFO - ##############################################################
+2021-08-07 11:30:45,325 - INFO - algo           : diff_hashing
+2021-08-07 11:30:45,325 - INFO - runnable state : off
+2021-08-07 11:35:14,685 - INFO - algo           : SSI
+2021-08-07 11:35:14,685 - INFO - runnable state : on
+2021-08-07 11:35:14,692 - INFO - ##############################################################
+2021-08-07 11:35:14,692 - INFO - active algo : structural similarity index
+2021-08-07 11:35:14,692 - INFO - ##############################################################
+2021-08-07 11:35:14,695 - INFO - starting the preprocess operation....
+2021-08-07 11:35:14,695 - INFO - finding diff sized real-time images....
+2021-08-07 11:35:14,732 - INFO - diff sized images count :17
+2021-08-07 11:35:14,732 - INFO - done with finding diff sized images in 0.0 minutes....OK
+2021-08-07 11:35:14,733 - INFO - finished the preprocess operation in 0.0 minutes....OK
+2021-08-07 11:35:14,737 - INFO - ##############################################################
+2021-08-07 11:35:14,737 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:35:14,737 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:35:14,737 - INFO - ##############################################################
+2021-08-07 11:35:17,241 - INFO - ##############################################################
+2021-08-07 11:35:17,241 - INFO - total diff files created for mismatches :16
+2021-08-07 11:35:17,241 - INFO - finished the SSI algo operation in 0.04 minutes...OK
+2021-08-07 11:35:17,241 - INFO - ##############################################################
+2021-08-07 11:35:17,241 - INFO - 
+2021-08-07 11:35:17,241 - INFO - 
+2021-08-07 11:35:17,241 - INFO - 
+2021-08-07 11:35:17,285 - INFO - algo           : perceptual_hashing
+2021-08-07 11:35:17,285 - INFO - runnable state : on
+2021-08-07 11:35:17,299 - INFO - ##############################################################
+2021-08-07 11:35:17,299 - INFO - active algo : p-hash
+2021-08-07 11:35:17,299 - INFO - ##############################################################
+2021-08-07 11:35:17,305 - INFO - ##############################################################
+2021-08-07 11:35:17,305 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:35:17,305 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:35:17,305 - INFO - ##############################################################
+2021-08-07 11:35:17,669 - INFO - ##############################################################
+2021-08-07 11:35:17,669 - INFO - finished the p-hashing algo operation in 0.01 minutes...OK
+2021-08-07 11:35:17,669 - INFO - ##############################################################
+2021-08-07 11:35:17,685 - INFO - algo           : BRISK-FLANN
+2021-08-07 11:35:17,685 - INFO - runnable state : on
+2021-08-07 11:35:17,696 - INFO - ##############################################################
+2021-08-07 11:35:17,697 - INFO - active algo : BRISK-FLANN
+2021-08-07 11:35:17,697 - INFO - ##############################################################
+2021-08-07 11:35:17,700 - INFO - ##############################################################
+2021-08-07 11:35:17,700 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:35:17,700 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:35:17,700 - INFO - ##############################################################
+2021-08-07 11:35:17,719 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0
+2021-08-07 11:35:17,720 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0
+2021-08-07 11:35:17,720 - INFO - Img file : A_1.png. BRISK-FLANN baseline value:0.0
+2021-08-07 11:35:17,835 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:1052
+2021-08-07 11:35:17,835 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:295
+2021-08-07 11:35:17,836 - INFO - Img file : A_2.png. BRISK-FLANN baseline value:29.06
+2021-08-07 11:35:17,931 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:630
+2021-08-07 11:35:17,931 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:128
+2021-08-07 11:35:17,932 - INFO - Img file : A_3.png. BRISK-FLANN baseline value:20.58
+2021-08-07 11:35:18,026 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:622
+2021-08-07 11:35:18,027 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:130
+2021-08-07 11:35:18,034 - INFO - Img file : A_4.png. BRISK-FLANN baseline value:20.9
+2021-08-07 11:35:18,264 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:3836
+2021-08-07 11:35:18,264 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:59
+2021-08-07 11:35:18,265 - INFO - Img file : A_5.png. BRISK-FLANN baseline value:2.28
+2021-08-07 11:35:18,328 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:420
+2021-08-07 11:35:18,328 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:13
+2021-08-07 11:35:18,330 - INFO - Img file : A_6.png. BRISK-FLANN baseline value:3.1
+2021-08-07 11:35:18,402 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:520
+2021-08-07 11:35:18,403 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:15
+2021-08-07 11:35:18,404 - INFO - Img file : A_7.png. BRISK-FLANN baseline value:3.57
+2021-08-07 11:35:18,520 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:520
+2021-08-07 11:35:18,520 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:520
+2021-08-07 11:35:18,522 - INFO - Img file : A_8.png. BRISK-FLANN baseline value:100.0
+2021-08-07 11:35:18,595 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:309
+2021-08-07 11:35:18,595 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:28
+2021-08-07 11:35:18,597 - INFO - Img file : A_9.png. BRISK-FLANN baseline value:9.06
+2021-08-07 11:35:18,673 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:338
+2021-08-07 11:35:18,673 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:37
+2021-08-07 11:35:18,674 - INFO - Img file : A_10.png. BRISK-FLANN baseline value:10.95
+2021-08-07 11:35:18,831 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:798
+2021-08-07 11:35:18,831 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:719
+2021-08-07 11:35:18,832 - INFO - Img file : A_11.png. BRISK-FLANN baseline value:90.1
+2021-08-07 11:35:18,946 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:1089
+2021-08-07 11:35:18,946 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:168
+2021-08-07 11:35:18,947 - INFO - Img file : A_12.png. BRISK-FLANN baseline value:15.64
+2021-08-07 11:35:19,132 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:2169
+2021-08-07 11:35:19,132 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:2053
+2021-08-07 11:35:19,134 - INFO - Img file : A_13.png. BRISK-FLANN baseline value:94.65
+2021-08-07 11:35:19,239 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:630
+2021-08-07 11:35:19,240 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:127
+2021-08-07 11:35:19,241 - INFO - Img file : A_14.png. BRISK-FLANN baseline value:20.42
+2021-08-07 11:35:19,336 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:629
+2021-08-07 11:35:19,336 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:603
+2021-08-07 11:35:19,338 - INFO - Img file : A_15.png. BRISK-FLANN baseline value:95.87
+2021-08-07 11:35:19,431 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:626
+2021-08-07 11:35:19,431 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:602
+2021-08-07 11:35:19,432 - INFO - Img file : A_16.png. BRISK-FLANN baseline value:96.17
+2021-08-07 11:35:19,539 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:632
+2021-08-07 11:35:19,539 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:566
+2021-08-07 11:35:19,540 - INFO - Img file : A_17.png. BRISK-FLANN baseline value:90.27
+2021-08-07 11:35:19,546 - INFO - ##############################################################
+2021-08-07 11:35:19,546 - INFO - finished the BRISK-FLANN algo operation in 0.03 minutes...OK
+2021-08-07 11:35:19,546 - INFO - ##############################################################
+2021-08-07 11:35:19,576 - INFO - algo           : diff_hashing
+2021-08-07 11:35:19,576 - INFO - runnable state : off
+2021-08-07 11:47:29,362 - INFO - algo           : SSI
+2021-08-07 11:47:29,363 - INFO - runnable state : on
+2021-08-07 11:47:29,372 - INFO - ##############################################################
+2021-08-07 11:47:29,372 - INFO - active algo : structural similarity index
+2021-08-07 11:47:29,373 - INFO - ##############################################################
+2021-08-07 11:47:29,374 - INFO - starting the preprocess operation....
+2021-08-07 11:47:29,376 - INFO - finding diff sized real-time images....
+2021-08-07 11:47:29,414 - INFO - diff sized images count :17
+2021-08-07 11:47:29,414 - INFO - done with finding diff sized images in 0.0 minutes....OK
+2021-08-07 11:47:29,415 - INFO - finished the preprocess operation in 0.0 minutes....OK
+2021-08-07 11:47:29,419 - INFO - ##############################################################
+2021-08-07 11:47:29,419 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:47:29,419 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:47:29,420 - INFO - ##############################################################
+2021-08-07 11:47:31,893 - INFO - ##############################################################
+2021-08-07 11:47:31,893 - INFO - total diff files created for mismatches :16
+2021-08-07 11:47:31,893 - INFO - finished the SSI algo operation in 0.04 minutes...OK
+2021-08-07 11:47:31,894 - INFO - ##############################################################
+2021-08-07 11:47:31,894 - INFO - 
+2021-08-07 11:47:31,894 - INFO - 
+2021-08-07 11:47:31,894 - INFO - 
+2021-08-07 11:48:05,697 - INFO - algo           : SSI
+2021-08-07 11:48:05,697 - INFO - runnable state : on
+2021-08-07 11:48:05,707 - INFO - ##############################################################
+2021-08-07 11:48:05,707 - INFO - active algo : structural similarity index
+2021-08-07 11:48:05,707 - INFO - ##############################################################
+2021-08-07 11:48:05,710 - INFO - starting the preprocess operation....
+2021-08-07 11:48:05,711 - INFO - finding diff sized real-time images....
+2021-08-07 11:48:05,743 - INFO - diff sized images count :17
+2021-08-07 11:48:05,743 - INFO - done with finding diff sized images in 0.0 minutes....OK
+2021-08-07 11:48:05,744 - INFO - finished the preprocess operation in 0.0 minutes....OK
+2021-08-07 11:48:05,747 - INFO - ##############################################################
+2021-08-07 11:48:05,747 - INFO - baseline imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_base --> img count:17
+2021-08-07 11:48:05,747 - INFO - runtime imgs path: C:/py/ImageBench/v2/workspace/image_ops/flat_runtime --> img count:17
+2021-08-07 11:48:05,747 - INFO - ##############################################################
+2021-08-07 11:48:08,220 - INFO - ##############################################################
+2021-08-07 11:48:08,221 - INFO - total diff files created for mismatches :16
+2021-08-07 11:48:08,221 - INFO - finished the SSI algo operation in 0.04 minutes...OK
+2021-08-07 11:48:08,221 - INFO - ##############################################################
+2021-08-07 11:48:08,221 - INFO - 
+2021-08-07 11:48:08,221 - INFO - 
+2021-08-07 11:48:08,221 - INFO - 

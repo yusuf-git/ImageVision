@@ -1,0 +1,7 @@
+{
+    "template_img": "D:/Automation/DW/TROS_SDV_Debug/py/cv-img-interact/actions.png",
+    "actions": "IsVisible/click/wait/movemouserel/relclick/wait",
+    "continue_on_failure": "false",
+    "result": "true",
+    "message": ""
+}

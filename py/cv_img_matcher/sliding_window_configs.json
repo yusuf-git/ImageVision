@@ -1,0 +1,64 @@
+{
+	"compare_args": {
+		"appFeatures_CV":"23",
+		"runtime_imgs_path":"C:/py/demo/RTFilterImages/",
+		"comp_reports_path":"C:/py/demo/reports/",
+		"net_result_path":"C:/py/demo/results/",
+		"img_ops_session_rootpath":"",
+		"sliced_images_comparison_report_needed":"false",
+		"sliced_images_positive_comparison_report_needed":"false",
+		"browserDependent":"true",
+		"realtime":"true",
+		"maskRegion": "",
+		"maskRegionExcluding":"",
+		"aspect_ratio_required":"true",
+		"intermediate_output":"false",
+		"purge_old_artifacts":"true",
+		"p_hash_parametric": {
+            "hash_size":"8"
+		},
+		"sliding_window":{
+			"baseline_preparation":{
+			    "reference_run":"false",
+				"screen_dimensions":"1600x600",
+				"image_storage_path":"C:/py/demo/RTFilterImages/slide_baseline/negatives/"
+			},
+			"max_consecutive_failures_per_row_for_anomaly_condition":"5",
+			"max_rows_with_anomaly_for_failure_condition":"2",
+			"unfulfilled_max_consecutive_failures_deemed_anomaly":"5",
+			"count_anomaly_only_in_consecutive_rows":"true",
+			"window_width":"180",
+			"window_height":"50",
+			"stepsize":"50",
+			"positive_conditions":{
+			    "positive_baseline_path":"C:/py/demo/RTFilterImages/slide_baseline/positives/",
+				"multi_baselining": "true",
+				"search_full_image_region":"true",
+				"maskRegion": "",
+				"maskRegionExcluding":""
+			},
+			"negative_conditions":{
+				"negative_baseline_path":"C:/py/demo/RTFilterImages/slide_baseline/negatives/"
+			}
+		},
+
+		"similarity":[
+			{
+				"method1":"SSI",
+				"m1_score":"0.98",
+				"m1_match_operator":"and",
+				"m1_powered_on":"1",
+				"m1_eval_groupID":"1",
+				"group_eval_operator":"or"
+			},
+			{
+				"method2":"perceptual_hashing",
+				"m2_score":"1",
+				"m2_match_operator":"and",
+				"m2_powered_on":"1",
+				"m2_eval_groupID":"1",
+				"group_eval_operator":"or"
+			}
+		]
+	}
+}

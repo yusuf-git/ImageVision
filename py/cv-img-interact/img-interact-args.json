@@ -1,0 +1,37 @@
+{
+    "interact_args": {
+		"appFeatures_CV":"",
+		"input_img":"",
+		"master_img":"",
+		"comp_reports_path":"",
+		"browserDependent":"",
+		"action":"type/click/doubleclick/rightclick/check/uncheck/mousehover/mouseup/mousedown/scrollup/scrolldown/dragndrop",
+		"crop_box": "0,0,len(width),50",
+		"methods":[
+			{
+				"method1":"templatematching",
+				"m1_score":"95%"
+			},
+			{
+				"method2":"selective_search",
+				"m2_score":"1"
+			},
+			{
+				"method3":"region_proposal",
+				"m3_score":"680"
+			},
+			{
+				"method4":"hog",
+				"m4_score":"680"
+			},
+			{
+				"method5":"windowsliding",
+				"m5_score":"680"
+			},
+			{
+				"method6":"haarcascade",
+				"m6_score":"0"
+			}
+		]
+    }
+}

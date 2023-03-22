@@ -1,0 +1,64 @@
+{
+    "actionize_args": {
+        "appFeatures_CV": "16",
+        "template_img": "D:/Automation/DW/TROS_SDV_Debug/py/cv-img-interact/Win_Start_Button.png",
+        "reports_path": "D:/Automation/DW/TROS_SDV_Debug/py/cv-img-interact",
+        "net_result_path": "D:/Automation/DW/TROS_SDV_Debug/py/cv-img-interact",
+        "imgArchivesPath": "",
+        "actions": "IsVisible/click/wait/movemouserel/relclick/wait",
+        "browserDependent": "false",
+        "action_inputs": {
+            "type_text": "Windows",
+            "scroll_up_units": "600",
+            "scroll_down_units": "-600",
+            "rel_x_y": "-40,",
+            "mouse_move_delay": "1",
+            "mouse_drag_to_coords": "",
+            "drop_target_img": "",
+            "wait_seconds": "2",
+            "matched_instance": "first"
+        },
+        "continue_on_failure": "false",
+        "intermediate_output": "false",
+        "purge_old_artifacts": "false",
+        "realtime_mode": "false",
+        "search_methods": [
+            {
+                "method1": "multi_template_match",
+                "m1_threshold": "0.8"
+            },
+            {
+                "method2": "windowsliding",
+                "m2_threshold": "680"
+            },
+            {
+                "method3": "selective_search",
+                "m3_threshold": "1"
+            },
+            {
+                "method4": "region_proposal",
+                "m4_threshold": "680"
+            },
+            {
+                "method5": "historgra_of_gradients",
+                "m5_threshold": "680"
+            },
+            {
+                "method6": "haarcascade",
+                "m6_threshold": "0"
+            }
+        ],
+        "RT_anomaly_detection": {
+            "neg_condition_check_mode": "true",
+            "reports_path": "",
+            "net_result_path": "",
+            "positive_conditions": {
+                "baseline_path": ""
+            },
+            "negative_conditions": {
+                "baseline_path": ""
+            },
+            "runtime_imgs_path": ""
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+	"compare_args": {
+		"appFeatures_CV":"23",
+		"runtime_img_path":"C:/py/RTImages/realtime/test",
+		"hang_issue_reports_path":"d:/hang_issue_checker/g/reports/",
+		"net_result_path":"d:/hang_issue_checker/g/reports",
+		"realtime":"true",
+		"maskRegion": "",
+		"maskRegionExcluding":"",
+		"aspect_ratio_required":"true",
+		"intermediate_output":"false",
+		"imgcap":"500",
+		"purge_old_reports":"false",
+		"hang_issue_checker":{
+			"check_frequency_min": "1"
+		},
+		"p_hash_parametric": {
+            "hash_size":"8"
+		},
+		"similarity":[
+			{
+				"method1":"SSI",
+				"m1_score":"0.8"
+			},
+			{
+				"method2":"perceptual_hashing",
+				"m2_score":"3"
+			}
+		]
+	}
+}

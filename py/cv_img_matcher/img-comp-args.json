@@ -1,0 +1,77 @@
+{
+    "compare_args": {
+        "appFeatures_CV": "",
+        "baselineImage": "D:\\Automation\\DW\\TROS_SDV_Debug\\src\\test-inputs\\imagevision\\numeric-monitoring\\historical\\chrome\\baseline\\Error1.png",
+        "comp_reports_path": "D:\\Automation\\DW\\img-archives\\imagevision\\37f4b449-96ff-fff6-ac08-21bf84a25c3a\\numeric-monitoring\\1112021_24558\\historical\\chrome\\runTime",
+        "net_result_path": "D:\\Automation\\DW\\img-archives\\imagevision\\37f4b449-96ff-fff6-ac08-21bf84a25c3a\\numeric-monitoring\\1112021_24558\\historical\\chrome\\runTime",
+        "imgArchivesPath": "D:\\Automation\\DW\\img-archives\\imagevision",
+        "uiObjSnap": "false",
+        "img_ops_session_rootpath": "",
+        "browserDependent": "true",
+        "realtime": "false",
+        "maskRegion": "",
+        "maskRegionExcluding": "",
+        "aspect_ratio_required": "true",
+        "intermediate_output": "false",
+        "purge_old_artifacts": "false",
+        "result_pattern_analyzer": {
+            "failure_pattern_succession_density": "0"
+        },
+        "p_hash_parametric": {
+            "hash_size": "8"
+        },
+        "d_hash_parametric": {
+            "hash_size": "8"
+        },
+        "BRISK_FLANN_parametric": {
+            "BRISK_FLANN_gp_gpp_check_enabled": "false",
+            "FLANNmatcher_accuracy": "0.5",
+            "BRISK_FLANN_bl_confirmed_variance_auto_update(disabled)": "false",
+            "BRISK_FLANN_parametric_baseline": "D:\\Automation\\DW\\TROS_SDV_Debug\\build-js\\src\\test-inputs\\imagevision\\data\\baseline\\briskflann_baseline.json",
+            "BRISK_FLANN_baseline_metrics_auto_update(disabled)": "false"
+        },
+        "similarity": [
+            {
+                "method1": "SSI",
+                "m1_score": "1",
+                "m1_match_operator": "and",
+                "m1_powered_on": "1",
+                "m1_eval_groupID": "1",
+                "group_eval_operator": "or"
+            },
+            {
+                "method2": "perceptual_hashing",
+                "m2_score": "0",
+                "m2_match_operator": "and",
+                "m2_powered_on": "1",
+                "m2_eval_groupID": "1",
+                "group_eval_operator": "or"
+            },
+            {
+                "method3": "BRISK-FLANN",
+                "m3_score": "0",
+                "m3_match_operator": "and",
+                "m3_powered_on": "1",
+                "m3_eval_groupID": "2",
+                "group_eval_operator": "or"
+            },
+            {
+                "method4": "diff_hashing",
+                "m4_score": "1",
+                "m4_match_operator": "or",
+                "m4_powered_on": "0",
+                "m4_eval_groupID": "",
+                "group_eval_operator": ""
+            },
+            {
+                "method5": "haar_cascade",
+                "m5_score": "1",
+                "m5_match_operator": "and",
+                "m5_powered_on": "0",
+                "m5_eval_groupID": "",
+                "group_eval_operator": ""
+            }
+        ],
+        "runtime_img": "D:\\Automation\\DW\\img-archives\\imagevision\\37f4b449-96ff-fff6-ac08-21bf84a25c3a\\numeric-monitoring\\1112021_24558\\historical\\chrome\\runTime\\Error1.png"
+    }
+}

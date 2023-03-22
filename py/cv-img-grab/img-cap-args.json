@@ -1,0 +1,27 @@
+{
+    "args": [
+        {
+            "appFeatures_CV": "2",
+            "imgFile": "C:\\SDPRuns\\Auckland\\SDVAutomation\\src\\test-inputs\\Unapproved_Images\\c5714f79-2d1a-b0bc-5db3-2d89f73f1ef3\\log-widget\\512022_85421\\historical\\chrome\\runTime\\96644_addAnnotations_time_save.png",
+            "imgArchivesPath": "C:\\SDPRuns\\Auckland\\SDVAutomation\\src\\test-inputs\\Unapproved_Images",
+            "cycles": "1",
+            "realtimeImgGrabDurationMins": "0",
+            "interval": "0",
+            "maskRegion": "",
+            "maskRegionExcluding": "",
+            "realtime": "false",
+            "uiObjSnap": "false",
+            "browserDependent": "true",
+            "approvedAsBaseline": "false",
+            "failTestOnBaselineAutoApproval": "false",
+            "baselineImage": "",
+            "x1": "60",
+            "y1": "222",
+            "x2": "790",
+            "y2": "701",
+            "failCurrentTestOnFailedImgOp": "true",
+            "overwriteBaseline": "true",
+            "resultPath": "C:\\SDPRuns\\Auckland\\SDVAutomation\\src\\test-inputs\\Unapproved_Images\\c5714f79-2d1a-b0bc-5db3-2d89f73f1ef3\\log-widget\\512022_85421\\historical\\chrome\\runTime"
+        }
+    ]
+}
