@@ -1,0 +1,56 @@
+{
+  "name": "discovery-viewer-automation",
+  "version": "2.0.0",
+  "description": "Discovery Viewer Project - Automation",
+  "main": "build-js/index.js",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "csv-parser": "^2.3.2",
+    "fs-extra": "^8.1.0",
+    "galore-config-tool-automation": "^1.0.0",
+    "guid-typescript": "^1.0.9",
+    "kognifai-automation-framework": "^2.0.0",
+    "kognifai-login": "^2.0.0",
+    "lodash": "^4.17.15",
+    "poseidon-next-automation": "^3.1.0",
+    "protractor": "^7.0.0",
+    "request": "^2.88.0",
+    "xml-writer": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "2.5.43",
+    "@types/node": "^7.10.11",
+    "@types/selenium-webdriver": "~2.53.39",
+    "allure-commandline": "^2.5.0",
+    "cheerio": "^1.0.0-rc.2",
+    "file-exists": "^3.0.2",
+    "firefox-profile": "^2.0.0",
+    "glob": "^7.1.3",
+    "jasmine": "^3.6.1",
+    "jasmine-allure-reporter": "^1.0.1",
+    "jasmine-reporters": "^2.2.1",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor-video-reporter-custom": "^1.0.0",
+    "q": "^1.5.1",
+    "rimraf": "^2.6.2",
+    "sanitize-filename": "^1.6.1",
+    "simple-node-logger": "^0.93.28",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "wdsetup": "webdriver-manager update",
+    "clean": "rimraf build-js",
+    "tsc": "tsc",
+    "build": "npm run clean & npm run tsc",
+    "pretest": "npm run build & mkdirp logs",
+    "test": "protractor build-js/config.js"
+  },
+  "keywords": [
+    "Protractor",
+    "Typescript"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://kdi.jfrog.io/kdi/api/npm/npm-local/"
+  }
+}
